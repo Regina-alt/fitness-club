@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Regina-alt/fitness-club.git/static/css/main.487f0301.css",
+    "main.js": "/Regina-alt/fitness-club.git/static/js/main.d8a4f083.js",
+    "index.html": "/Regina-alt/fitness-club.git/index.html",
+    "main.487f0301.css.map": "/Regina-alt/fitness-club.git/static/css/main.487f0301.css.map",
+    "main.d8a4f083.js.map": "/Regina-alt/fitness-club.git/static/js/main.d8a4f083.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.487f0301.css",
+    "static/js/main.d8a4f083.js"
+  ]
+}
