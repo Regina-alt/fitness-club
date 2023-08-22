@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/fitness-club/static/css/main.487f0301.css",
-    "main.js": "/fitness-club/static/js/main.d8a4f083.js",
+    "main.js": "/fitness-club/static/js/main.47833d73.js",
     "index.html": "/fitness-club/index.html",
     "main.487f0301.css.map": "/fitness-club/static/css/main.487f0301.css.map",
-    "main.d8a4f083.js.map": "/fitness-club/static/js/main.d8a4f083.js.map"
+    "main.47833d73.js.map": "/fitness-club/static/js/main.47833d73.js.map"
   },
   "entrypoints": [
     "static/css/main.487f0301.css",
-    "static/js/main.d8a4f083.js"
+    "static/js/main.47833d73.js"
   ]
 }
