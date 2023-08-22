@@ -1,0 +1,133 @@
+.testimonials {
+  display: flex;
+  gap: 1rem;
+  padding: 0 2rem;
+  margin-left: 20%;
+  margin-right: 14%;
+
+  .leftT {
+    display: flex;
+    flex: 1 1;
+    gap: 2rem;
+    flex-direction: column;
+    color: white;
+    text-transform: uppercase;
+
+    :nth-child(1) {
+      color: var(--orange);
+      font-weight: bold;
+    }
+
+    :nth-child(2),
+    :nth-child(3) {
+      font-size: 3rem;
+      font-weight: bold;
+    }
+
+    :nth-child(4) {
+      text-transform: none;
+      text-align: justify;
+      letter-spacing: 2px;
+      line-height: 40px;
+    }
+
+    .statusT {
+      font-size: 1rem;
+    }
+
+    .nameT {
+      color: var(--orange);
+    }
+  }
+
+  .rightT {
+    flex: 1;
+    position: relative;
+
+    .divBorder {
+      position: absolute;
+      width: 17rem;
+      height: 20rem;
+      border: 2px solid orange;
+      background-color: transparent;
+      right: 9rem;
+      top: 0.9rem;
+      z-index: -1;
+    }
+
+    .divBack {
+      position: absolute;
+      width: 17rem;
+      height: 19rem;
+      background: var(--planCard);
+      top: 4rem;
+      right: 7rem;
+      z-index: -1;
+    }
+
+    .imageT {
+      position: absolute;
+      width: 17rem;
+      height: 20rem;
+      object-fit: cover;
+      right: 8rem;
+      top: 2rem;
+    }
+
+    .arrows {
+      display: flex;
+      gap: 1rem;
+      position: absolute;
+      bottom: 1rem;
+      left: 3rem;
+
+      img {
+        width: 1.5rem;
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .testimonials {
+    flex-direction: column;
+
+    .leftT {
+      :nth-child(2),
+      :nth-child(3) {
+        font-size: xx-large;
+      }
+    }
+
+    .rightT {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 2rem;
+
+      .divBorder {
+        position: relative;
+        display: none;
+      }
+
+      .divBack {
+        position: relative;
+        display: none;
+      }
+
+      .imageT {
+        position: relative;
+        right: 0;
+        top: 0;
+        align-self: center;
+      }
+
+      .arrows {
+        display: block;
+        bottom: 10;
+      }
+    }
+  }
+}
