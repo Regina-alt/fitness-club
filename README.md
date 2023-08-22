@@ -21,7 +21,7 @@
 
 <b>Ссылки на проект:</b>
 <br>
-Деплой: <i><a href="">&laquo;Демо&raquo;</a></i>
+Деплой: <i><a href="https://regina-alt.github.io/fitness-club/">&laquo;Демо&raquo;</a></i>
 <br>
 
 
