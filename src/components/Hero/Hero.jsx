@@ -71,19 +71,19 @@ function Hero() {
           whileInView={{ right: "4rem" }}
           initial={{ right: "-1rem" }}
         >
-          <img src="/img/heart.png" alt="Heart Rate" />
+          <img src="img/heart.png" alt="Heart Rate" />
           <span>Heart Rate</span>
           <span>116 bpm</span>
         </motion.div>
 
         {/* hero images */}
         <img
-          src="/img/hero_image.png"
+          src="img/hero_image.png"
           alt="Hero Image"
           className={styles.heroImage}
         />
         <motion.img
-          src="/img/hero_image_back.png"
+          src="img/hero_image_back.png"
           alt="Hero Image"
           className={styles.heroImageBack}
           initial={{ right: "11rem" }}
@@ -98,7 +98,7 @@ function Hero() {
           whileInView={{ right: "28rem" }}
           transition={transition}
         >
-          <img src="/img/calories.png" alt="Calories" />
+          <img src="img/calories.png" alt="Calories" />
           <div className={styles.caloriesContent}>
             <span>Calories Burned</span>
             <span>220 kcal</span>

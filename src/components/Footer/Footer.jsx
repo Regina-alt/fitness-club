@@ -8,12 +8,12 @@ const Footer = () => {
       <hr />
       <div className={styles.footer}>
         <div className={styles.socialLinks}>
-          <img src="/img/github.png" alt="github" />
-          <img src="/img/instagram.png" alt="instagram" />
-          <img src="/img/linkedin.png" alt="linkedin" />
+          <img src="img/github.png" alt="github" />
+          <img src="img/instagram.png" alt="instagram" />
+          <img src="img/linkedin.png" alt="linkedin" />
         </div>
         <div className={styles.logoF}>
-          <img src="/img/logo.png" alt="logo" />
+          <img src="img/logo.png" alt="logo" />
         </div>
       </div>
     

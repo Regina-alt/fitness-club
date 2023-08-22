@@ -22,7 +22,7 @@ const Programs = () => {
             <span>{program.details}</span>
             <div className={styles.joinNow}>
               <span>Join Now</span>
-              <img src="/img/rightArrow.png" alt="rightArrow" />
+              <img src="img/rightArrow.png" alt="rightArrow" />
             </div>
           </div>
         ))}

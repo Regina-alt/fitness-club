@@ -9,7 +9,7 @@ const Header = () => {
 
   return (
     <div className={styles.header}>
-      <img src="./img/logo.png" alt="Logo" />
+      <img src="img/logo.png" alt="Logo" />
       {menuOpen === false && mobile === true ? (
         <div
           className={styles.bars}
@@ -21,7 +21,7 @@ const Header = () => {
           onClick={() => setMenuOpen(true)}
         >
           <img
-            src="./img/bars.png"
+            src="img/bars.png"
             alt="bars"
             style={{ width: "1.5rem", height: "1.5rem" }}
           />
